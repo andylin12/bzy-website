@@ -33,7 +33,7 @@ export default function Contact() {
           <div className={styles.info}>
             <div className={styles.infoItem}>
               <h3>Email</h3>
-              <p>hello@bzy.com</p>
+              <p>a@bzy.ai</p>
             </div>
             <div className={styles.infoItem}>
               <h3>Follow Us</h3>
