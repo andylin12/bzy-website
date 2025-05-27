@@ -1,0 +1,119 @@
+.contact {
+  background-color: var(--gray-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.info {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+}
+
+.infoItem {
+  margin-bottom: 2rem;
+}
+
+.infoItem h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.social a {
+  transition: var(--transition);
+}
+
+.social a:hover {
+  color: var(--primary-color);
+}
+
+.form {
+  background-color: var(--light-color);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  font-family: inherit;
+  font-size: 1rem;
+  transition: var(--transition);
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  transition: var(--transition);
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #5A52E0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
